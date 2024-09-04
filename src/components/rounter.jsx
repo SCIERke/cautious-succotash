@@ -17,6 +17,9 @@ function RouterBar() {
             <Link to="/salary" className='hover:text-slate-900 cursor-pointer mx-2 lg:mx-4'>
               Salary | Path Way
             </Link>
+            <Link to="/nameandRef" className='hover:text-slate-900 cursor-pointer mx-2 lg:mx-4'>
+              Name | Reference
+            </Link>
           </div>
         </div>
     )

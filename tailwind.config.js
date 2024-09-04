@@ -5,7 +5,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 newAms: ['New Amsterdam', 'sans-serif'],
-                oswald: ['Oswald', 'sans-serif']
+                oswald: ['Oswald', 'sans-serif'],
+                kanit: ['Kanit', 'sans-serif']
             },
         },
     },

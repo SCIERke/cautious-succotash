@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Home from './page/Home';
 import Property from './page/Property';
 import Salary from './page/Salary';
+import NameAndRef from './page/NameandRef';
 import { BrowserRouter as Router, Route, Routes , Navigate  } from 'react-router-dom';
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/property" element={<Property />} />
         <Route path="/salary" element={<Salary />} />
+        <Route path='/nameandRef' element={<NameAndRef/>} />
         {/*<Route path="/knowledge" element={<KnowledgeBase />} /> */}
       </Routes>
     </Router>
